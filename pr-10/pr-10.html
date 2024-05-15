@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Opening Form</title>
+</head>
+<body>
+    <h2>Bank Account Opening Form</h2>
+    <form action="#" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" required><br><br>
+        
+        <label for="account_type">Account Type:</label>
+        <select id="account_type" name="account_type" required>
+            <option value="checking">Saving Account</option>
+            <option value="savings">Savings</option>
+            <option value="investment">Investment</option>
+        </select><br><br>
+        
+        <label for="initial_deposit">Initial Deposit:</label>
+        <input type="number" id="initial_deposit" name="initial_deposit" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I Agree to terms and Condition</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

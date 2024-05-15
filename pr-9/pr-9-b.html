@@ -1,32 +1,38 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Student Feedback Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
 </head>
 <body>
-
-<h2>Student Feedback Form</h2>
-<form action="#" method="post">
-  <label for="student_name">Name:</label>
-  <input type="text" id="student_name" name="student_name" required>
-
-  <label for="student_id">ID:</label>
-  <input type="text" id="student_id" name="student_id" required>
-
-  <label for="course">Course:</label>
-  <select id="course" name="course" required>
-    <option value="">Select Course</option>
-    <option value="Math">Math</option>
-    <option value="Science">Science</option>
-  </select>
-
-  <label for="feedback">Feedback:</label>
-  <textarea id="feedback" name="feedback" rows="4" required></textarea>
-
-  <label for="rating">Rating (1-5):</label>
-  <input type="number" id="rating" name="rating" min="1" max="5" required>
-
-  <button type="submit">Submit</button>
-</form>
-
+    <h2>Student Feedback Form</h2>
+    <form action="#" method="post">
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name" required><br>
+        
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="computer_science">Math</option>
+            <option value="engineering">Engineering</option>
+            <option value="business">Business</option>
+            <option value="arts">Arts</option>
+        </select><br>
+        How Satisfied are you with course<br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Overly Satisfied</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Somewhat Satisfied</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Not Satisfied</label><br>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea><br>
+        Would you recomend this course<br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Yes</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">No</label><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
