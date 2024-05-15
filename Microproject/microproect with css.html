@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        article {
+            flex: 1;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        article h2 {
+            color: #333;
+            margin-top: 0;
+            font-size: 24px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        article p {
+            line-height: 1.6;
+            color: black;
+        }
+        article p:first-child {
+            margin-top: 0;
+        }
+        article p:last-child {
+            margin-bottom: 0;
+        }
+        aside {
+            flex: 1;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        address {
+            font-style: normal;
+        }
+        h2 {
+            color: #333;
+        }
+        figure {
+            margin: 0;
+        }
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .latest-releases {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .latest-releases h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .latest-releases ul {
+            margin-top: 0;
+        }
+        .latest-releases ul li {
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        .latest-releases ul li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Anime World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Anime Series</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Forum</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Anime Series</h2>
+            <figure>
+                <img src="image.jpeg" alt="Anime Series Image">
+                <figcaption>Anime Series</figcaption>
+            </figure>
+            <p>Anime, originating from Japan, is a diverse and vibrant form of animated entertainment that has captured the hearts of audiences worldwide. It encompasses a wide range of genres, from action-packed adventures to heartwarming romances and thought-provoking dramas.</p>
+            <p>One of the distinctive features of anime is its rich storytelling, which often explores complex themes and emotions. It's not uncommon for anime series to tackle issues such as friendship, love, loss, and identity, resonating with viewers on a deep and personal level.</p>
+            <p>Another aspect that sets anime apart is its stunning artwork and animation. Anime artists, known as animators, pour their creativity and talent into crafting visually captivating scenes filled with vibrant colors, intricate details, and fluid movements. This attention to detail elevates the viewing experience and immerses audiences in fantastical worlds beyond imagination.</p>
+        </article>
+        <aside class="latest-releases">
+            <h2>Latest Releases</h2>
+            <ul>
+                <li><strong>Naruto Shippuden:</strong> Follow Naruto Uzumaki as he continues his journey to become Hokage, leading his friends and allies against powerful enemies.</li>
+                <li><strong>Attack on Titan:</strong> Experience the thrilling battle between humanity and the Titans as they fight for survival in a post-apocalyptic world.</li>
+                <li><strong>One Piece:</strong> Join Monkey D. Luffy and his crew on their quest to find the legendary One Piece treasure and become the Pirate King.</li>
+                <li><strong>Demon Slayer:</strong> Follow Tanjiro Kamado as he battles demons and seeks revenge for the death of his family.</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Contact Us:</p>
+        <address>
+            Email: info@animeworld.com<br>
+            Phone: 123-456-7890<br>
+            Address: 123 Anime Street, Tokyo, Japan
+        </address>
+    </footer>
+</body>
+</html>
